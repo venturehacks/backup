@@ -28,5 +28,5 @@ Gem::Specification.new do |gem|
 
   # AL additions
   gem.add_dependency 'excon', '~> 0.17.0'
-  gem.add_dependency 'fog', '~> 1.9.0'
+  gem.add_dependency 'fog'
 end
