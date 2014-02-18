@@ -25,4 +25,7 @@ Gem::Specification.new do |gem|
 
   gem.add_dependency 'thor',  ['>= 0.15.4', '< 2']
   gem.add_dependency 'open4', ['~> 1.3.0']
+
+  # AL additions
+  gem.add_dependency 'excon', '~> 0.17.0'
 end

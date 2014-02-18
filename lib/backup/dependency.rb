@@ -37,14 +37,14 @@ module Backup
 
       'net-scp' => {
         :require => 'net/scp',
-        :version => ['>= 1.0.0', '<= 1.0.4'],
+        :version => ['>= 1.0.0'],
         :for     => 'SCP Protocol (SCP Storage)',
         :dependencies  => 'net-ssh'
       },
 
       'net-ssh' => {
         :require => 'net/ssh',
-        :version => ['>= 2.3.0', '<= 2.5.2'],
+        :version => ['>= 2.3.0'],
         :for     => 'SSH Protocol (SSH Storage)'
       },
 
